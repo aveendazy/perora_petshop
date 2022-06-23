@@ -22,8 +22,8 @@ $tgl_daftar = $_POST['tgl_daftar'];
 //update data ke database local
      $sql = "UPDATE member SET
      nama='$nama', 
-     alamat='$alamat' 
-     no_hp='$no_hp' 
+     alamat='$alamat', 
+     no_hp='$no_hp', 
      tgl_daftar='$tgl_daftar' 
      WHERE member_id=$member_id";
 

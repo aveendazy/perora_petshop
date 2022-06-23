@@ -57,7 +57,7 @@ $data = $result->data;
 
                     </form>
                 ";
-            } 
+            }
         ?>
     </body>
 </html>
